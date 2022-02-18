@@ -1,0 +1,100 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  .menu-icon{
+    display: none;
+}
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+  }
+  /* ttg kami */
+  .container{
+    width: 95%;
+    margin: 0 auto;
+}
+.ttgKami-title h2{
+    font-size: 36px;
+}
+.ttgKami-center img{
+    width: 45%;
+}
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .facebook {
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  /* Tambahkan CSS untuk header-right */
+  header .container .header-right {
+    display: none;
+  }
+  
+  /* Tambahkan CSS untuk menu-icon */
+  header .container .menu-icon {
+    display: block;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  /* tentang kami */
+  .ttgKami-title{
+    text-align: center;
+}
+.ttgKami-center img{
+    display: none;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+.ttgKami-title h2{
+    font-size: 36px;
+    width: 220px;
+    float: none;
+    margin: 0 auto;
+}
+.ttgKami-center p{
+    font-size: 18px;
+    text-align: center;
+}
+.ttgKami-title .ttgKami-button{
+    text-align: center;
+    display: inline-block;
+    margin:0 auto;
+    float: none;        
+}
+
+}
